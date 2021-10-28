@@ -10,18 +10,42 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
   </head>
 
   <body>
     <header class="hero">
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a id="close-button" class="closebtn">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#us">Nosotros</a>
+          <a href="#info">Información</a>
+          <a href="#services">Servicios</a>
+          <a href="#contact">Contacto</a>
+        </div>
+      </div>
+      <!-- Use any element to open/show the overlay navigation menu -->
       <nav>
+        <ul class="nav-links">
+          <li>
+            <a id="open-button"><i class="fa fa-bars fa-3x"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- <nav>
         <ul class="nav-links">
           <li><a href="#us">Nosotros</a></li>
           <li><a href="#info">Información</a></li>
-          <li><a href="#services">Nuestros Servicios</a></li>
+          <li><a href="#services">Servicios</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
-      </nav>
+      </nav> -->
+
       <div class="hero-texts">
         <h1>Nombre de la Empresa</h1>
         <p>Marketing Digital</p>
@@ -67,19 +91,19 @@
           <i class="fa fa-address-book-o"></i>
           <h3>Servicio 1</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          <a href="" class="cta">Learn more</a>
+          <a href="" class="cta">+ Info</a>
         </article>
         <article class="card">
           <i class="fa fa-envelope-o"></i>
           <h3>Servicio 2</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          <a href="" class="cta">Learn more</a>
+          <a href="" class="cta">+ Info</a>
         </article>
         <article class="card">
           <i class="fa fa-phone"></i>
           <h3>Servicio 3</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          <a href="" class="cta">Learn more</a>
+          <a href="" class="cta">+ Info</a>
         </article>
       </div>
     </section>
@@ -91,7 +115,7 @@
       </div>
     </section> -->
 
-    <section class="info-last">
+    <section>
       <div class="container last-section">
         <div class="main-texts-container">
           <h2 class="title left">Casos de exito</h2>
@@ -154,5 +178,7 @@
         s.parentNode.insertBefore(ldk, s);
       })();
     </script>
+
+    <link />
   </body>
 </html>
