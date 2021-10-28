@@ -68,6 +68,7 @@ body {
   display: flex;
   justify-content: flex-end;
   font-weight: 500;
+  font-size: 20px;
 }
 
 .nav-links li {
@@ -87,10 +88,10 @@ body {
   color: #ffffff;
 }
 
-nav li + li:before {
-  /* content: " | "; */
+/* nav li + li:before {
+  content: " | ";
   padding: 0 10px;
-}
+} */
 
 /* Main styles*/
 
@@ -291,6 +292,30 @@ input[type="submit"]:hover {
     text-align: center;
     font-size: 50px;
   }
+
+  .nav-links {
+    /* list-style: circle; */
+    /* display: flex;
+    flex-direction: column;*/
+    justify-content: center;
+    /* align-items: center; */
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .nav-links li {
+    /* display: inline-block; */
+    padding: 0 10px;
+  }
+
+  .nav-links li a {
+    /* transition: all 0.3s ease 0s; */
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 6px 6px;
+    /* color: #000000; */
+  }
+
   /* Main styles*/
   .title {
     font-size: 35px;
@@ -353,6 +378,29 @@ input[type="submit"]:hover {
   .hero-texts p {
     font-size: 20px;
     text-align: center;
+  }
+
+  .nav-links {
+    /* list-style: circle; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .nav-links li {
+    /* display: inline-block; */
+    padding: 0 10px;
+  }
+
+  .nav-links li a {
+    /* transition: all 0.3s ease 0s; */
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 6px 6px;
+    /* color: #000000; */
   }
 
   .card {
