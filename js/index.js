@@ -13,10 +13,15 @@ window.addEventListener("load", function () {
     document.getElementById("myNav").style.width = "0%";
   }
 
-const openMenuButton = document.getElementById("open-button");
+  const openMenuButton = document.getElementById("open-button");
   const closeMenuButton = document.getElementById("close-button");
+  const itemMenuButtons = document.querySelectorAll(".overlay-item");
     
   openMenuButton.addEventListener("click", openNav);
   closeMenuButton.addEventListener("click", closeNav);
+  
+  for (let itemMenu of itemMenuButtons) {
+    itemMenu.addEventListener("click", closeNav);
+  }
 
 });
